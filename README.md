@@ -4,6 +4,4 @@
 
 # 설치할 패키지
 
-장고를 설치하세요
-
-$ pip install django
+$ ./python_packages.sh
