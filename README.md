@@ -4,4 +4,4 @@
 
 # 설치할 패키지
 
-$ ./python_packages.sh
+$ pip install -r requirment.txt
