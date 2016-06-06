@@ -18,4 +18,3 @@ class Post(models.Model):
                 "post_id": sefl.id,
             }
         )
-
