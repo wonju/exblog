@@ -11,6 +11,7 @@ def comments_create(request, post_id):
     )
     return redirect(comment)
 
+
 def comments_edit(request, post_id, comment_id):
     post = Post.objects.get(id=post_id)
     comment = post.comment_set.get(id=comment_id)
@@ -19,7 +20,7 @@ def comments_edit(request, post_id, comment_id):
         request,
         "posts/comments_edit.html",
         {
-            "post":post,
+            "post": post,
             "comment": comment,
         },
     )
