@@ -7,6 +7,7 @@ class PostManager(models.Manager):
     def public(self):
         return self.filter(is_public=True)
 
+
 class Post(models.Model):
 
     objects = PostManager()
