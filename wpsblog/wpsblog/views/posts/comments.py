@@ -1,6 +1,6 @@
 from django.shortcuts import redirect
 
-from wpsblog.models import Post 
+from wpsblog.models import Post
 
 
 def comments_create(request, post_id):
