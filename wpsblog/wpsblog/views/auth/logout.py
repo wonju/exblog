@@ -5,4 +5,4 @@ from django.shortcuts import redirect
 
 def logout(request):
     auth_logout(request)
-    return redirect(revers("home"))
+    return redirect(reverse("home"))
